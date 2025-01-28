@@ -11,29 +11,29 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: __
+    text: Hope is real
+    button: check it out!
+    buttonlink: "#portfolio"
 
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+  #services:
+  #  title: "Services"
+  #  text: "Lorem ipsum"
+  #  section: services
+  #  list:
+  #    - title: "E-Commerce"
+  #      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  #      icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+  #    - title: "Responsive Design"
+  #      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+  #      icon: fas fa-laptop
+  #    - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+  #      desc: "Your description here, full **Markdown** support"
+  #      icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Music"
+    text: "Check out Sebastian's music and get the scores!"
     section: portfolio
     closebutton: "Close Project"
 
@@ -130,8 +130,8 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact"
+    text: "Send me a message"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -147,15 +147,15 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
+    #  - url: https://twitter.com
+    #    icon: "fab fa-twitter"
+    #  - url: https://facebook.com
+    #    icon: "fab fa-facebook-f"
+    #  - url: https://linkedin.com
+    #    icon: "fab fa-linkedin-in"
+    #  - url: https://github.com/raviriley/agency-jekyll-theme
+    #    icon: "fab fa-github"
+      - url: https://www.instagram.com/sebastiansimonmusic/
         icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
