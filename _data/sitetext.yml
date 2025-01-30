@@ -35,7 +35,7 @@ en: &DEFAULT_EN
     title: "Music"
     text: "Check out Sebastian's music and get the scores!"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Go back"
 
   timeline:
     title: "Timeline"
@@ -69,9 +69,9 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: About
+    text: "Sebastian Simon"
+    body: "\"I make songs because hope is real. Because Jesus Christ is real. He lives and helps me through every day situations. He gives everything I need. That is great news and I want to tell it the whole world.\""
     section: about
 
   clients:
@@ -149,14 +149,12 @@ en: &DEFAULT_EN
     social:
     #  - url: https://twitter.com
     #    icon: "fab fa-twitter"
-    #  - url: https://facebook.com
-    #    icon: "fab fa-facebook-f"
-    #  - url: https://linkedin.com
-    #    icon: "fab fa-linkedin-in"
     #  - url: https://github.com/raviriley/agency-jekyll-theme
     #    icon: "fab fa-github"
       - url: https://www.instagram.com/sebastiansimonmusic/
         icon: "fab fa-instagram"
+      - url: https://www.youtube.com/@akasimon_music
+        icon: "fab fa-youtube"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -165,6 +163,20 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Spanish
 # -------
