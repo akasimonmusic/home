@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: __
+    title: 
     text: Hope is real
-    button: check it out!
+    button:
     buttonlink: "#portfolio"
 
   #services:
@@ -33,7 +33,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Music"
-    text: "Check out Sebastian's music and get the scores!"
+    text: "Check out Sebastian's music and get the sheets!"
     section: portfolio
     closebutton: "Go back"
 

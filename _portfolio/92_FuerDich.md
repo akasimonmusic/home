@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Für Dich
+  title: 
   subtitle: Single, 2024
   thumbnail: assets/img/portfolio/Songs/fuerdich.jpg
   

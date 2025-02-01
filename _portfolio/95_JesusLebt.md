@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Jesus lebt!
+  title: 
   subtitle: Single, 2024
   thumbnail: assets/img/portfolio/Songs/jesuslebt.jpg
   

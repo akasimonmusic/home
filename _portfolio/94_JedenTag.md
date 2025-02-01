@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Jeden Tag
+  title: 
   subtitle: Single, 2024
   thumbnail: assets/img/portfolio/Songs/jedentag.jpg
   

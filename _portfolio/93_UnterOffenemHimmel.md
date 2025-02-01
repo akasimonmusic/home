@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Unter offenem Himmel
+  title: 
   subtitle: Single, 2024
   thumbnail: assets/img/portfolio/Songs/unteroffenemhimmel.jpg
   

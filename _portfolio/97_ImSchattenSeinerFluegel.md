@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Im Schatten seiner Flügel
+  title: 
   subtitle: Single, 2023
   thumbnail: assets/img/portfolio/Songs/imschattenseinerfluegel.png
   

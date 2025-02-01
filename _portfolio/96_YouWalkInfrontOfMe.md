@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: You walk infront of me
+  title: 
   subtitle: Single, 2024
   thumbnail: assets/img/portfolio/Songs/youwalkinfrontofme.png
   

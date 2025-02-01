@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Auch wenn die Welt Kopf steht
+  title: 
   subtitle: Single, 2023
   thumbnail: assets/img/portfolio/Songs/auchwenndieweltkopfsteht.jpg
   
