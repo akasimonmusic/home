@@ -39,6 +39,26 @@
     }
   }
 }
+.topleft {
+  float: left;
+  margin: 20px;
+}
+.topright {
+  float: right;
+  margin: 20px;
+}
+.img-sizer {
+  height: 50px;
+
+}
+.mynavbuttons {
+  font-size: 20px;
+  font-family: Newsreader;
+  font-style: italic;
+  border: none;
+  background: none;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -71,4 +91,25 @@
       }
     }
   }
+
+  .topleft {
+    float: left;
+    margin: 20px;
+  }
+  .topright {
+    float: right;
+    margin: 20px;
+  }
+  .img-sizer {
+    height: 80px;
+  
+  }
+  .mynavbuttons {
+    font-size: 30px;
+    font-family: Newsreader;
+    font-style: italic;
+    border: none;
+    background: none;
+  }
+
 }
