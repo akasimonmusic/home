@@ -30,7 +30,7 @@ h6 {
 }
 
 .page-section {
-  padding: 100px 0;
+  padding: 90px 0 70px; // top - left&right - bottom padding
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -45,9 +45,25 @@ h6 {
     @include serif-font;
   }
 }
+.abouttextsizer {
+  font-size: 20px;
+}
+.aboutimgsizer {
+  width: 80px; 
+  border-radius: 50%; 
+  margin-bottom: 5px;
+}
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 140px 0 120; // top - left&right - bottom padding
+  }
+  .abouttextsizer {
+    font-size: 27px;
+  }
+  .aboutimgsizer {
+    width: 120px; 
+    border-radius: 50%; 
+    margin-bottom: 10px;
   }
 }
 
