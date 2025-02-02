@@ -32,7 +32,7 @@ en: &DEFAULT_EN
   #      icon: fab fa-markdown
 
   portfolio:
-    title: "Music"
+    title: "Music & Sheets"
     text: "Check out Sebastian's music and get the sheets!"
     section: portfolio
     closebutton: "Go back"
