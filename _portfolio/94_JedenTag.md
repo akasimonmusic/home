@@ -9,6 +9,8 @@ title: Jeden Tag
 subtitle: Single, 2024
 image: assets/img/portfolio/Songs/jedentag.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: Cover
+listenlink: https://tr.ee/w_2ecix_sx
+downloadlink: 
 
 ---
 

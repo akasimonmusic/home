@@ -10,24 +10,48 @@
     </div>
     <div class="row">
       {% for project in site.portfolio %}
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <!--a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}"-->
-          <a class="portfolio-link" href="#p{{ forloop.index }}">
-            <!--div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
-              </div>
-            </div-->
-            <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>{{ project.caption.title }}</h4>
-            <p class="text-muted">{{ project.caption.subtitle }}</p>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <!--a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}"-->
+        <a class="portfolio-link" href="#p{{ forloop.index }}">
+          <!--div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
+            </div>
+          </div-->
+          <img class="img-fluid" id="my-clickit{{ forloop.index }}" src="{{ project.caption.thumbnail }}" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>{{ project.caption.title }}</h4>
+          <p class="text-muted" id="my-hideit{{ forloop.index }}" style="display: block;">{{ project.caption.subtitle }}</p>
+
+          <div class="text-center" id="my-showit{{ forloop.index }}" style="display: none;">
+            <a href="{{ project.listenlink }}">
+              <button class="mysongbuttons">Listen</button>
+            </a>
+            {% if project.downloadlink %}
+            <a href="{{ project.downloadlink }}" download="{{ project.title }}.zip">
+              <button class="mysongbuttons">Sheets</button>
+            </a> 
+            {% endif %}
           </div>
-          <div>
-            <a class="" href="{{ project.link }}" style="visibility: hidden;">Link</a>
-          </div>
+
         </div>
+      </div>
+      <script>
+        const clickit = document.querySelector("#my-clickit{{ forloop.index }}");
+        const showit = document.querySelector("#my-showit{{ forloop.index }}");
+        const hideit = document.querySelector("#my-hideit{{ forloop.index }}")
+      
+        clickit.addEventListener("click", function() {
+          if (showit.style.display === "none") {
+            hideit.style.display = "none";
+            showit.style.display = "block";
+          } else {
+            showit.style.display = "none";
+            hideit.style.display = "block";
+          }
+        });
+      </script>
       {% endfor %}
     </div>
   </div>
@@ -66,3 +90,4 @@
 {% endif %}
 
 {% include modals.html %}
+

@@ -9,6 +9,8 @@ title: Thank You
 subtitle: Single, 2023
 image: assets/img/portfolio/Songs/thankyou.png #main image, can be a link or a file in assets/img/portfolio
 alt: Cover
+listenlink: https://tr.ee/ZJZwcSJ5BR
+downloadlink: 
 
 ---
 

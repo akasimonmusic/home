@@ -9,7 +9,8 @@ title: Für Dich
 subtitle: Single, 2024
 image: assets/img/portfolio/Songs/fuerdich.jpg #main image, can be a link or a file in assets/img/portfolio
 alt: Cover
-link: https://tr.ee/V-WgdVB6Aa
+listenlink: https://tr.ee/V-WgdVB6Aa
+downloadlink: assets/downloads/92/Sheets.zip
 
 ---
 
