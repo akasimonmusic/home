@@ -1,13 +1,16 @@
 #Color Customization
-#highlight: "#54bfff"
-#white: "#FF0000"
-#black: "#000"
+highlight: "#495057" #"#81c590" # $primary in code, defined in assets/css/agency.scss
+white: "#FFF"
+black: "#000"
 
 #Image Customization
 header-image: "../img/myheader.jpg"
 contact-image: "../img/contact.png"
 #Font Awesome icon for portfolio grid when an item is hovered over
-#portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
+#Info: Coded in protfolio_grid.html as I want to change the icon with clicked on and didnt get it done with variables
+#portfolio-icon: fas fa-chevron-down fa-3x #fas fa-music fa-3x #default: fas fa-plus fa-3x
+#portfolio-icon-down: fas fa-chevron-down fa-3x #fas fa-circle-chevron-down fa-3x
+#portfolio-icon-up: fas fa-chevron-up fa-3x
 
 # Add custom fonts
 fonts_urls:
