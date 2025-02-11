@@ -57,6 +57,15 @@
   font-style: italic;
   border: none;
   background: none;
+  color: $gray-900;
+}
+.mynavbuttons:focus {  
+  color: $gray-900;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.mynavbuttons:hover {
+  color: $gray-700;
 }
 .mysongbuttons { // In portfolio html ...
   font-size: 15px;
@@ -68,6 +77,9 @@
     border-radius: 2px;
     margin-inline: 1%;
     width: 40%;
+}
+.mysongbuttons:focus {
+  color: $gray-900;
 }
 
 @media (min-width: 992px) {
@@ -111,6 +123,7 @@
     float: right;
     margin: 10px;
   }
+  
   .img-sizer {
     height: 80px;
   
@@ -119,8 +132,18 @@
     font-size: 30px;
     font-family: Newsreader;
     font-style: italic;
+    border-style: none;
     border: none;
     background: none;
+    color: $gray-900;
+  }
+  .mynavbuttons:focus {    
+    color: $gray-900;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .mynavbuttons:hover {
+    color: $gray-700;
   }
   .mysongbuttons { // In portfolio html ...
     font-size: 20px;
@@ -132,6 +155,9 @@
     border-radius: 2px;
     margin-inline: 2%;
     width: 40%;
+  }
+  .mysongbuttons:focus {
+    color: $gray-900;
   }
 
 }
