@@ -69,24 +69,25 @@
   text-decoration: none;
 }
 .mysongbuttons { // In portfolio html ...
+  margin: 0;
   font-size: 15px;
   font-family: Newsreader; //Instrument Serif;
   font-style: normal;
-  font-weight: 500;
-  //border: none;
+  //font-weight: 500;
+  
   background: none;
-  border-radius: 2px;
+  //border-radius: 2px;
   margin-inline: 1%;
-  width: 40%;
-  color: $gray-900;
+  //width: 40%;
+  color: $gray-600;
   border: none;
 }
 .mysongbuttons:hover {
-  color: $gray-700;
+  color: $gray-500;
   text-decoration: none;
 }
 .mysongbuttons:focus {
-  color: $gray-900;
+  color: $gray-600;
 }
 
 @media (min-width: 992px) {
@@ -136,6 +137,7 @@
   
   }
   .mynavbuttons {
+    margin: 0;
     font-size: 30px;
     font-family: Newsreader;
     font-style: italic;
@@ -158,21 +160,21 @@
     font-size: 20px;
     font-family: Newsreader; //Instrument Serif;
     font-style: normal;
-    font-weight: 500;
-    //border: none;
+    //font-weight: 500;
+    
     background: none;
-    border-radius: 2px;
+    //border-radius: 2px;
     margin-inline: 2%;
-    width: 40%;
-    color: $gray-900;
+    //width: 40%;
+    color: $gray-600;
     border: none;
   }
   .mysongbuttons:hover {
-    color: $gray-700;
+    color: $gray-500;
     text-decoration: none;
   }
   .mysongbuttons:focus {
-    color: $gray-900;
+    color: $gray-600;
   }
 
 }
