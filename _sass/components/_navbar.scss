@@ -65,6 +65,8 @@
 }
 .mynavbuttons:hover {
   color: $gray-700;
+  border: none;
+  text-decoration: none;
 }
 .mysongbuttons { // In portfolio html ...
   font-size: 15px;
@@ -80,6 +82,7 @@
 }
 .mysongbuttons:hover {
   color: $gray-700;
+  text-decoration: none;
 }
 .mysongbuttons:focus {
   color: $gray-900;
@@ -164,6 +167,7 @@
   }
   .mysongbuttons:hover {
     color: $gray-700;
+    text-decoration: none;
   }
   .mysongbuttons:focus {
     color: $gray-900;

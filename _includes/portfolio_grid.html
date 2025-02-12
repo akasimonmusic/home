@@ -38,13 +38,13 @@
           <p class="text-muted" id="my-hideit{{ forloop.index }}" style="display: block;">{{ project.caption.subtitle }}</p>
 
           <div class="text-center" id="my-showit{{ forloop.index }}" style="display: none;">
-            <a href="{{ project.listenlink }}">
+            <a class="mysongbuttons" href="{{ project.listenlink }}">
               <button class="mysongbuttons">
                 <i class="fas fa-music"></i> Listen                
               </button>
             </a>
             {% if project.downloadlink %}
-            <a href="{{ project.downloadlink }}" download="{{ project.title }}.zip">
+            <a class="mysongbuttons" href="{{ project.downloadlink }}" download="{{ project.title }}.zip">
               <button class="mysongbuttons">
                 <i class="fas fa-download"></i> Sheets
               </button>
