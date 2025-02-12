@@ -72,6 +72,8 @@
   margin: 0;
   font-size: 15px;
   font-family: Newsreader; //Instrument Serif;
+  //font-family: Instrument Serif;
+  //@include serif-font;
   font-style: normal;
   //font-weight: 500;
   
@@ -159,6 +161,8 @@
   .mysongbuttons { // In portfolio html ...
     font-size: 20px;
     font-family: Newsreader; //Instrument Serif;
+    //font-family: Instrument Serif;
+    //@include serif-font;
     font-style: normal;
     //font-weight: 500;
     
