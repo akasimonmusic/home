@@ -70,15 +70,16 @@
 }
 .mysongbuttons { // In portfolio html ...
   font-size: 15px;
-    font-family: Newsreader; //Instrument Serif;
-    font-style: normal;
-    font-weight: 500;
-    //border: none;
-    background: none;
-    border-radius: 2px;
-    margin-inline: 1%;
-    width: 40%;
-    color: $gray-900;
+  font-family: Newsreader; //Instrument Serif;
+  font-style: normal;
+  font-weight: 500;
+  //border: none;
+  background: none;
+  border-radius: 2px;
+  margin-inline: 1%;
+  width: 40%;
+  color: $gray-900;
+  border: none;
 }
 .mysongbuttons:hover {
   color: $gray-700;
@@ -164,6 +165,7 @@
     margin-inline: 2%;
     width: 40%;
     color: $gray-900;
+    border: none;
   }
   .mysongbuttons:hover {
     color: $gray-700;
