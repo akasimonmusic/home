@@ -150,3 +150,27 @@ nav img{
     font-size: 24px;
     color: #111;
 }
+
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;    /* Das aktiviert den Blocksatz */
+    max-width: 800px;
+    margin: 60px auto;
+    gap: 20px;
+    font-size: 20px;
+    padding: 0 40px;        /* Kleiner Puffer für mobile Geräte */
+}
+
+.about-section h1 {
+    text-align: center;     /* Die Überschrift soll meist trotzdem mittig bleiben */
+    width: 100%;            /* Sorgt dafür, dass h1 den Platz ausnutzt */
+}
+
+@media (max-width: 600px) {
+    .about-section {
+        font-size: 13px;
+    }
+}
